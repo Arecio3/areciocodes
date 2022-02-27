@@ -13,7 +13,7 @@
     background: linear-gradient(
         45deg,
         transparent,
-        #FA564A,
+        #6666FA,
         transparent
     );
 }
@@ -36,4 +36,42 @@
     transform: rotate(0deg);
 }
 
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
 
+.about__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about__card:hover {
+    background: transparent;
+    border-color: var(--color-bg-variant);
+}
+
+
+.about__icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.about__card h5 {
+    font-size: 0.95rem;
+}
+
+.about__card small {
+    font-weight: 900;
+    color: #6666FA;
+    font-size: 0.7rem;
+}
+
+.about__content p {
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
