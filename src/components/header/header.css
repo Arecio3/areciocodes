@@ -39,7 +39,7 @@ header {
 .me {
     position: absolute; 
     left: calc(50% - 11rem);
-    background: linear-gradient(#ED645A, transparent);
+    background: linear-gradient(#214E6E, transparent);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
@@ -49,4 +49,30 @@ header {
 img {
     height: 30rem;
     width: 22rem;
+}
+
+.scroll__down {
+    position: absolute;
+    right: -2.5rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1024px){
+    header {
+        height: 68vh;
+    }
+}
+
+@media screen and (max-width: 600px){
+    header {
+        height: 100vh;
+    }
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
 }
