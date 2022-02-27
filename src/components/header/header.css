@@ -64,6 +64,9 @@ img {
     header {
         height: 68vh;
     }
+    /* img {
+        margin-top: -19%;
+    } */
 }
 
 @media screen and (max-width: 600px){
