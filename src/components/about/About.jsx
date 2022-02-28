@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/meWithABack.JPG";
+import ME from "../../assets/pexels-markus-spiske-965345.jpg";
 import { FaAward } from "react-icons/fa";
 import { ImUsers } from "react-icons/im";
 import { GiAtom } from "react-icons/gi";

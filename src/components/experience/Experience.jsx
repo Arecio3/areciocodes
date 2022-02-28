@@ -4,6 +4,7 @@ import {
   BsFillPatchCheckFill,
   BsFillArrowUpRightCircleFill,
 } from "react-icons/bs";
+
 const Experience = () => {
   return (
     <section id="experience">
@@ -24,7 +25,7 @@ const Experience = () => {
               </a>
               <div>
               <h4>Value Haulers</h4>
-              <small className="text-light">Nationwide Trucking Business</small>
+              <h6 className="text-light">Nationwide Trucking Business</h6>
               </div>
             </article>
             <article className="experience__details">
@@ -37,7 +38,7 @@ const Experience = () => {
               </a>
               <div>
               <h4>Hummingbird Lawn Services</h4>
-              <small className="text-light">Local Landscaping Business</small>
+              <h6 className="text-light">Local Landscaping Business</h6>
               </div>
             </article>
             <article className="experience__details">
@@ -50,7 +51,7 @@ const Experience = () => {
               </a>
               <div>
               <h4>ArecioCodes</h4>
-              <small className="text-light">Portfolio Website</small>
+              <h6 className="text-light">Portfolio Website</h6>
               </div>
             </article>
           </div>
