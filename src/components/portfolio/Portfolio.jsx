@@ -2,9 +2,9 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/pexels-skyler-ewing-9382466.jpg'
 import IMG2 from '../../assets//pexels-aleksejs-bergmanis-681335.jpg'
-import IMG3 from '../../assets/pexels-clive-kim-4220967.jpg'
-import IMG4 from '../../assets/image_processing20200610-7773-knt196.jpeg'
-import IMG5 from '../../assets/Google-Logo-Retro-Doodle-World-Wide-Web-30-1.webp'
+import IMG3 from '../../assets/pexels-brent-keane-1687530.jpg'
+import IMG4 from '../../assets/pexels-pixabay-267350.jpg'
+import IMG5 from '../../assets/searchy.png'
 import IMG6 from '../../assets/Documentcreatie_Header.png'
 
 const Portfolio = () => {
@@ -18,7 +18,7 @@ const Portfolio = () => {
         <div className="portfolio__item-image">
           <img src={IMG1} alt="" />
         </div>
-          <h3>Hummingbird Lawn Services</h3>
+          <h3>Hummingbird</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/Arecio3/Humming_bird" target="_blank" rel="noreferrer noopener" className='btn'>Github</a>
           <a href="https://hummingbirdlawn.com/" target="_blank" rel="noreferrer noopener" className='btn btn-primary'>Website</a>

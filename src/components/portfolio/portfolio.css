@@ -1,7 +1,7 @@
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    gap: 2.3rem;
     margin-right: 18%;
 }
 
@@ -12,7 +12,7 @@
     border: 1px solid transparent;
     transition: var(--transition);
     width: 28vw;
-    height: 43vh;
+    height: 30vh;
 }
 
 .portfolio__item:hover {
@@ -23,20 +23,22 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
-    height: 22vh;
+    height: 18vh;
 }
 
 .portfolio__item-image img {
     min-width: 100%;
-    object-fit: cover ;
+    object-fit: cover;
     aspect-ratio: auto;
+    height: 22vh;
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem -.5rem 1rem;
 }
 
 .portfolio__item-cta {
     display: flex;
     gap: 1rem;
+    margin-bottom: 2rem;
 }
