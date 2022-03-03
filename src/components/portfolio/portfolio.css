@@ -42,3 +42,48 @@
     gap: 1rem;
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 1024px){
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+        margin-right: 7%;
+        overflow: hidden;
+    }
+    .portfolio__item {
+        width: 41vw;
+        height: 35vh;
+    }
+
+    .portfolio__item h6 {
+        margin: -1rem 0rem 1rem -.5rem;
+        color: var(--color-light);
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        place-items: center;
+        margin-right: 5%;
+        margin-top: -15%;
+    }
+
+    .portfolio__item {
+        width: 90vw;
+        height: 40vh;
+    }
+
+    .portfolio__item h6 {
+        margin: -1rem 0rem .5rem -.5rem;
+        color: var(--color-light);
+    }
+
+    .portfolio__item-image img {
+        object-fit: fill;
+        height: 25vh;
+        width: 30vh;
+    }
+}
